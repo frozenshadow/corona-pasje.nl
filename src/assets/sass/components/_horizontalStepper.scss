@@ -1,0 +1,92 @@
+/**
+ * Sass stepper/wizard component style
+ * Version: 1.0.0
+ * Author: Tom van der Leij <contact@leijlandia.nl>
+ * https://corona-pasje.nl/
+ *
+ * Description:
+ * Stepper/Wizard component styles are defined here.
+ * Inspired by 'vue-stepper':
+ * https://github.com/PygmySlowLoris/vue-stepper
+ *
+ * Creation date:   18-09-2021
+ * Last changed:    18-09-2021
+ */
+
+.stepper-box {
+  min-height: 200px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+
+    .divider-line {
+      border-bottom: 1px solid #cccccc;
+      height: 2px;
+      position: absolute;
+      @include media-breakpoint-down(lg) {
+        width: 100% !important;
+      }
+    }
+
+    .steps-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      min-width: 0;
+      width: 100%;
+      @include media-breakpoint-down(lg) {
+        justify-content: center;
+      }
+
+      .step {
+        display: flex;
+        min-width: 0;
+        @include media-breakpoint-down(lg) {
+          max-width: 100% !important;
+          justify-content: center;
+        }
+
+        .circle {
+          color: $white;
+          background-color: $primary;
+          width: 56px;
+          line-height: 52px;
+          border-color: $primary !important;
+          flex: 0 0 auto;
+        }
+
+        &.deactivated {
+          @include media-breakpoint-down(lg) {
+            display: none;
+          }
+
+          .circle {
+            color: rgba(0, 0, 0, 0.35);
+            background-color: $white !important;
+            border-color: rgba(0, 0, 0, 0.35) !important;
+          }
+
+          .step-title {
+            opacity: .35;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    overflow: hidden;
+  }
+
+  .bottom {
+    justify-content: space-between;
+
+    &.only-next {
+      justify-content: flex-end;
+    }
+  }
+}

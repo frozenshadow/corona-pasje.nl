@@ -1,0 +1,42 @@
+/**
+ * Sass variables
+ * Version: 1.0.0
+ * Author: Tom van der Leij <contact@leijlandia.nl>
+ * https://corona-pasje.nl/
+ *
+ * Description:
+ * All the Sass variables are defined here.
+ * Varying from breakpoints to specific brand colors.
+ *
+ * Creation date:   18-09-2021
+ * Last changed:    18-09-2021
+ */
+
+/* RESPONSIVENESS
+============================================ */
+
+/**
+ * Media query breakpoints
+ */
+$break-xs-max:              "max-width: 400px"; // Extra small screen / phone
+$break-sm-max:              "max-width: 620px"; // Small screen / tablet, phone
+$break-md-max:              "max-width: 767px"; // Medium screen / desktop, tablet
+$break-lg-max:              "max-width: 800px"; // Large screen / desktop
+$break-xl-max:              "max-width: 960px"; // Extra large screen / wide desktop
+$break-xxl-max:             "max-width: 1080px"; // Extra, Extra large screen / wide desktop
+$break-xxl-min:             "min-width: 1081px";
+
+
+/* TYPOGRAPHY
+============================================ */
+
+/**
+ * Font weights
+ */
+$font-weight-extra-light:   200;
+$font-weight-light:         300;
+$font-weight-regular:       400;
+$font-weight-medium:        500;
+$font-weight-semi-bold:     600;
+$font-weight-bold:          700;
+$font-weight-extra-bold:    800;
