@@ -25,9 +25,9 @@
         <button type="button" class="btn btn-primary btn-lg font-weight-medium mx-auto px-4" data-bs-toggle="modal" data-bs-target="#createCardModal">Pasje maken <i class="bi bi-arrow-right"></i></button>
       </div>
       <p><b>Hoe is dit idee ontstaan?</b></p>
-      <p>Ik wou graag een papieren coronatoegangsbewijs, maar kwam er bij het maken achter dat deze niet ontworpen was om compact op te vouwen. Hierop heb ik mijn eigen pasje gemaakt.</p>
-      <p>Na deze te hebben laten zien aan vrienden en familie bleek dat hier meer vraag naar was. Deze vraag ging echter verder als alleen mijn naasten, waarna ik besloot om mijn achtergrond als programmeur in te zetten en deze site te bouwen.</p>
-      <p>Zo gezegd, (bijna) zo gedaan, kan nu iedereen er een voor zichzelf of zijn naasten maken.</p>
+      <p>Ik wilde graag een papieren coronatoegangsbewijs, maar kwam er bij het maken achter dat deze niet ontworpen was om compact op te vouwen. Dus heb ik mijn eigen pasje gemaakt.</p>
+      <p>Nadat ik deze heb laten zien aan vrienden en familie bleek dat hier meer vraag naar was. Omdat dit verder ging dan alleen mijn naasten, besloot ik mijn achtergrond als programmeur in te zetten en deze site te bouwen.</p>
+      <p>Zo gezegd, (bijna) zo gedaan, nu kan iedereen er een voor zichzelf of zijn naasten maken.</p>
       <p><b>Voor wie is dit bedoeld?</b></p>
       <p>
         Iedereen die baat heeft bij een papieren coronatoegangsbewijs en hem in z&rsquo;n portemonnee wil doen!
@@ -42,9 +42,9 @@
 
       <h2 class="border-bottom pb-2 my-3">Privacy</h2>
       <p>
-        Privacy staat bij mij hoog in het vaandel. Deze site is daarom zo ontworpen dat er geen informatie je apparaat verlaat. Het verwerken van de door jou aangeleverde PDF/gegevens en het genereren van een Corona Pasje gebeurd geheel lokaal (op het apparaat waarop je dit leest).
+        Privacy staat bij mij hoog in het vaandel. Deze site is daarom zo ontworpen dat er geen informatie je apparaat verlaat. Het verwerken van de door jou aangeleverde PDF/gegevens en het genereren van een Corona Pasje gebeurt geheel lokaal (op het apparaat waarop je dit leest).
         <br>
-        Alles buiten deze site, dus wat je doet op CoronaCheck.nl en met het pasje, ben je zelf verantwoordelijk voor.
+        Voor alles buiten deze site, dus wat je doet op CoronaCheck.nl en met het pasje, ben je zelf verantwoordelijk.
       </p>
       <p>Toch nog een vraag of opmerking hierover? Neem dan gerust contact met mij op via: coronapasje@leijlandia.nl</p>
     </main>
