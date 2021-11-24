@@ -10,8 +10,10 @@
  * https://codepen.io/ne0/pen/MJXwOr
  *
  * Creation date:   18-09-2021
- * Last changed:    20-09-2021
+ * Last changed:    25-11-2021
  */
+
+@use "sass:math";
 
 /* CONFIG AND CONSTANTS
 ============================================ */
@@ -22,10 +24,10 @@ $loader-size: 9em;
 $symbol-thickness: 5px;
 
 $sin45: 0.70710678;
-$check-height: $loader-size/2;
-$check-width: $check-height/2;
-$check-left: ($loader-size/7 + $loader-size/12);
-$cross-offset: ($check-height / $sin45) - $check-height;
+$check-height: $loader-size*0.5;
+$check-width: $check-height*0.5;
+$check-left: (math.div($loader-size, 7) + math.div($loader-size, 12));
+$cross-offset: math.div($check-height, $sin45) - $check-height;
 
 
 /* LOADER STYLES
@@ -108,8 +110,8 @@ $cross-offset: ($check-height / $sin45) - $check-height;
 
         &:before, &:after {
             opacity: 1;
-            height: $check-height / 2;
-            width: $check-height / 2;
+            height: $check-height * 0.5;
+            width: $check-height * 0.5;
             transform-origin: left top;
             border-right: $symbol-thickness solid $cross-color;
             border-top: $symbol-thickness solid $cross-color;
@@ -123,8 +125,8 @@ $cross-offset: ($check-height / $sin45) - $check-height;
         }
 
         &:after {
-            left: calc(#{($symbol-thickness * 2)/$sin45} - #{$cross-offset});
-            top: calc(#{$cross-offset} - #{($symbol-thickness)/$sin45});
+            left: calc(#{math.div($symbol-thickness * 2, $sin45)} - #{$cross-offset});
+            top: calc(#{$cross-offset} - #{math.div($symbol-thickness, $sin45)});
         }
     }
 }
