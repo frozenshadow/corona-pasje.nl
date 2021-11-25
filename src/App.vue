@@ -2,7 +2,7 @@
   <div id="app" class="container" style="max-width: 960px;">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 border-bottom">
       <a href="/" class="align-items-center col-12 col-md-3 d-flex justify-content-center justify-content-md-start mb-4 mb-md-0">
-        <img :src="require('@/assets/img/corona_pasje_logo.svg')" alt="Corona Pasje" style="max-height: 40px; max-width: 100%;">
+        <CoronaPasjeLogo alt="Corona Pasje" style="max-height: 40px;" />
       </a>
 
       <div class="col-md-4 text-end">
@@ -52,10 +52,10 @@
     <footer class="border-top pt-3 mt-5 text-center">
       <div class="hstack gap-3 justify-content-center">
         <a href="https://buymeacoffee.com/frozenshadow" target="_blank">
-          <img :src="require('@/assets/img/bmc_logo_mark.svg')" alt="Buy Me a Coffee" class="w-100 rounded-circle" style="max-height: 40px;">
+          <BMCLogoMark alt="Buy Me a Coffee" class="w-100 rounded-circle" style="max-height: 40px;" />
         </a>
         <a href="https://github.com/frozenshadow/corona-pasje.nl" target="_blank">
-          <img :src="require('@/assets/img/github_logo_mark.svg')" alt="GitHub" class="w-100" style="max-height: 40px;">
+          <GitHubLogoMark alt="GitHub" class="w-100" style="max-height: 40px;" />
         </a>
       </div>
       <small class="d-block m-3">Corona Pasje is geen officiële overheidswebsite en op geen enkele manier hieraan verbonden of gelieerd.<br>Het gebruik van deze website en het Corona Pasje is op eigen risico.</small>
@@ -74,12 +74,18 @@ import StepOne from '@/components/StepOne';
 import StepTwo from '@/components/StepTwo';
 import Modal from '@/components/ui/Modal';
 import StepThree from "@/components/StepThree";
+import BMCLogoMark from '@/assets/img/bmc_logo_mark.svg';
+import GitHubLogoMark from '@/assets/img/github_logo_mark.svg';
+import CoronaPasjeLogo from '@/assets/img/corona_pasje_logo.svg'
 
 export default {
   name: 'App',
   components: {
     HorizontalStepper,
-    Modal
+    Modal,
+    BMCLogoMark,
+    GitHubLogoMark,
+    CoronaPasjeLogo
   },
   data(){
     return {
