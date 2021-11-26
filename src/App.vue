@@ -2,7 +2,7 @@
   <div id="app" class="container" style="max-width: 960px;">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 border-bottom">
       <a href="/" class="align-items-center col-12 col-md-3 d-flex justify-content-center justify-content-md-start mb-4 mb-md-0">
-        <CoronaPasjeLogo alt="Corona Pasje" style="max-height: 40px;" />
+        <CoronaPasjeLogo alt="Corona Pasje" class="w-100" style="max-height: 40px;"/>
       </a>
 
       <div class="col-md-4 text-end">
@@ -52,10 +52,10 @@
     <footer class="border-top pt-3 mt-5 text-center">
       <div class="hstack gap-3 justify-content-center">
         <a href="https://buymeacoffee.com/frozenshadow" target="_blank">
-          <BMCLogoMark alt="Buy Me a Coffee" class="w-100 rounded-circle" style="max-height: 40px;" />
+          <BMCLogoMark alt="Buy Me a Coffee" class="w-100 rounded-circle" style="max-height: 40px; max-width: 100px;" />
         </a>
         <a href="https://github.com/frozenshadow/corona-pasje.nl" target="_blank">
-          <GitHubLogoMark alt="GitHub" class="w-100" style="max-height: 40px;" />
+          <GitHubLogoMark alt="GitHub" class="w-100" style="max-height: 40px; max-width: 100px;" />
         </a>
       </div>
       <small class="d-block m-3">Corona Pasje is geen officiële overheidswebsite en op geen enkele manier hieraan verbonden of gelieerd.<br>Het gebruik van deze website en het Corona Pasje is op eigen risico.</small>
