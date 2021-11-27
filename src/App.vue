@@ -21,19 +21,10 @@
         <br>
         Het pasje is niet veel groter als een credit card en bevat alle informatie die ook op het standaard bewijs staat, met het verschil dat deze wél in je portemonnee past.
       </p>
-      <div class="d-grid gap-2 mb-3">
+      <div class="d-grid gap-2 mb-3 text-center">
         <button type="button" class="btn btn-primary btn-lg font-weight-medium mx-auto px-4" data-bs-toggle="modal" data-bs-target="#createCardModal">Pasje maken <i class="bi bi-arrow-right"></i></button>
+        <small>Lees <a href="#faq" target="_self">hier</a> de veelgestelde vragen</small>
       </div>
-      <p><b>Hoe is dit idee ontstaan?</b></p>
-      <p>Ik wilde graag een papieren coronatoegangsbewijs, maar kwam er bij het maken achter dat deze niet ontworpen was om compact op te vouwen. Dus heb ik mijn eigen pasje gemaakt.</p>
-      <p>Nadat ik deze heb laten zien aan vrienden en familie bleek dat hier meer vraag naar was. Omdat dit verder ging dan alleen mijn naasten, besloot ik mijn achtergrond als programmeur in te zetten en deze site te bouwen.</p>
-      <p>Zo gezegd, (bijna) zo gedaan, nu kan iedereen er een voor zichzelf of zijn naasten maken.</p>
-      <p><b>Voor wie is dit bedoeld?</b></p>
-      <p>
-        Iedereen die baat heeft bij een papieren coronatoegangsbewijs en hem in z&rsquo;n portemonnee wil doen!
-        <br>
-        Maar ook gewoon als back-up voor het geval je bijv. je telefoon kwijtraakt of de app niet werkt.
-      </p>
 
       <h2 class="border-bottom pb-2 my-3">Sponsor</h2>
       <p>Als je deze website handig vindt en ervoor wilt zorgen dat anderen hier ook gebruik van kunnen maken, doneer dan een kop koffie via de gelijknamige knop bovenaan de pagina.</p>
@@ -47,6 +38,64 @@
         Voor alles buiten deze site, dus wat je doet op CoronaCheck.nl en met het pasje, ben je zelf verantwoordelijk.
       </p>
       <p>Toch nog een vraag of opmerking hierover? Neem dan gerust contact met mij op via: coronapasje@leijlandia.nl</p>
+
+      <h2 class="border-bottom pb-2 my-3">Veelgestelde vragen</h2>
+      <div class="accordion" id="faq">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingOne">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+              Hoe is dit idee ontstaan?
+            </button>
+          </h2>
+          <div id="faqOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>Ik wilde graag een papieren coronatoegangsbewijs, maar kwam er bij het maken achter dat deze niet ontworpen was om compact op te vouwen. Dus heb ik mijn eigen pasje gemaakt.</p>
+              <p>Nadat ik deze heb laten zien aan vrienden en familie bleek dat hier meer vraag naar was. Omdat dit verder ging dan alleen mijn naasten, besloot ik mijn achtergrond als programmeur in te zetten en deze site te bouwen.</p>
+              <p>Zo gezegd, (bijna) zo gedaan, nu kan iedereen er een voor zichzelf of zijn naasten maken.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingTwo">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+              Voor wie is dit bedoeld?
+            </button>
+          </h2>
+          <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                Iedereen die baat heeft bij een papieren coronatoegangsbewijs en hem in z&rsquo;n portemonnee wil doen!
+                <br>
+                Maar ook gewoon als back-up voor het geval je bijv. je telefoon kwijtraakt of de app niet werkt.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingThree">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+              Is er ook een EU/internationale variant beschikbaar?
+            </button>
+          </h2>
+          <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>Helaas nog niet. Ik ben hier wel mee aan het experimenteren, maar door de grote hoeveelheid gegevens i.c.m. de beperkte ruimte op het pasje is dit een uitdaging.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingFour">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+              Kan ik ook een pasje maken voor een test- of herstelbewijs?
+            </button>
+          </h2>
+          <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>Ja! De informatie op het Nederlands bewijs blijft in alle gevallen hetzelfde, alleen de geldigheidsduur varieert.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="border-top pt-3 mt-5 text-center">
