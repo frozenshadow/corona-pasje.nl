@@ -21,7 +21,7 @@
           <h5 class="mb-3">Tips:</h5>
           <div class="p-3 bg-light border border-1">
             <ul class="m-0">
-              <li>Druk pagina 1 en 2 dubbelzijdig af;</li>
+              <li>Druk pagina 1 en 2 dubbelzijdig af (langs korte rand);</li>
               <li>Print op dikker papier voor extra duurzaam- en stevigheid;</li>
               <li>Lamineer het blauwe pasje;</li>
               <li>Gebruik dubbelzijdig plakband i.p.v. lijm.</li>
