@@ -95,6 +95,19 @@
             </div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingFive">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+              Ik wil doneren maar heb geen PayPal of creditcard, is er een alternatief?
+            </button>
+          </h2>
+          <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>Niet via de doneer-knop, maar ik kan wel een persoonlijk betaalverzoek sturen.<br>Stuur hiervoor een mail naar coronapasje@leijlandia.nl</p>
+              <p>Alvast heel erg bedankt voor de moeite en je donatie!</p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
